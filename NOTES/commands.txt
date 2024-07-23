@@ -1,0 +1,11 @@
+--After creating a folder, open it here to create the basic setup
+
+dotnet new webapi --use-controllers
+
+--to run program
+
+dotnet watch run
+
+--boiler plate for controllers
+
+ctor + TAB
