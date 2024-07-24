@@ -21,11 +21,12 @@ namespace PengWinBodyDapperAPI.Controllers
         }
         
         [HttpPost("NiceToMeetYou")]
-        public IActionResult NiceToMeetYou(string yourName)
+        public IActionResult NiceToMeetYou(string? yourName)
         {
             if (string.IsNullOrEmpty(yourName))
             {
-                return BadRequest("Ambot");
+                // you can also return Unauthorized()
+                return BadRequest("Please enter your name.");
             }
             return Ok($"Nice to meet you, {yourName}");
         }

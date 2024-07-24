@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PengWinBodyDapperAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7f8eebc3ad85f087c1563845069e0e25ad7bbef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PengWinBodyDapperAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PengWinBodyDapperAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
