@@ -1,3 +1,29 @@
+SETUP:
+
+1.) VS Code Extension: []
+
+1.1) Create a root file named Name.db
+    -rightclick....
+
+2.) Install Dapper
+
+* Type this in project's terminal: 
+
+dotnet add package Dapper --version 2.1.35
+
+   
+3.) Install SqLite
+
+* Type this in project's terminal:
+
+dotnet add package Microsoft.Data.Sqlite --version 8.0.0
+
+
+==========================================
+
+MOST BASIC SETUP:
+
+
 --After creating a folder, open it here to create the basic setup
 
 dotnet new webapi --use-controllers
